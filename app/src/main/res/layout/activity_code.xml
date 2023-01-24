@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".code">
+    <TextView
+        android:id="@+id/suk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pembelian Sukses"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:textColor="#000">
+
+    </TextView>
+    <TextView
+        android:id="@+id/suk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Scan di mesin terdekat"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/suk1"
+        android:textColor="#000">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/q"
+        android:layout_below="@+id/suk2">
+
+    </ImageView>
+
+</RelativeLayout>

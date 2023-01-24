@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pesan">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Pesanan : "
+                android:layout_marginLeft="5dp"
+                android:textSize="15sp"
+                android:textColor="#000">
+
+
+
+            </TextView>
+            <TextView
+                android:id="@+id/tv1ly2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Pesanan"
+                android:layout_marginLeft="5dp"
+                android:textSize="15sp"
+                android:textColor="#000">
+
+
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Harga Pesanan : "
+
+                android:textSize="15sp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000">
+
+
+            </TextView>
+            <TextView
+                android:id="@+id/tv2ly2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Harga Pesanan"
+
+                android:textSize="15sp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000">
+
+
+            </TextView>
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:layout_marginTop="140dp"
+            android:hint="Masukan Jumlah Uang"
+            android:inputType="number"
+            android:id="@+id/edt2">
+
+
+        </EditText>
+        <Button
+            android:id="@+id/bunt1"
+            android:layout_width="180dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/edt2"
+
+            android:text="Bayar">
+
+        </Button>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
